@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainheader{
+    height: 60px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: 100% 100%;
+}
+nav.navlink a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 50px;
+    justify-content: space-between;
+    color: black;
+    
+}
+nav.navlink a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.social{
+    margin-right: 50px;
+}
+.social a{
+    padding: 5px 6px;
+    justify-content: space-between;
+    border: 1px solid black;
+    color: rgb(27, 26, 26);
+    border-radius: 16px;
+    
+}
+.social a:hover{
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 16px;
+    color: white;
+    
+    
+}
+.logo img{
+  height: 200px;
+   width: 200px;
+   margin-right: 170px;
+}
+main{
+   
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:lighten;
+    
+}
+.main{
+    height: 100vh;
+    /* width: 100%; */
+   justify-content: space-around;
+    display: flex;
+    align-items: center;
+   font-size: 30px;
+}
+
+.main-section h1{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.main button{
+        padding: 10px 22px; 
+       border: 2px solid rgb(11, 10, 11);
+       border-radius: 30px;
+       background-color:transparent ;
+       margin-top: 20px;
+       font-size: 15px;
+       cursor: pointer;
+       font-weight: bolder;
+       transition-duration: 0.9s;
+    }
+    
+.btn:hover{
+    color: white;
+    background-color:rgb(82, 79, 82) ;
+
+}

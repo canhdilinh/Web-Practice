@@ -1,0 +1,31 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    background-color: rgb(49, 49, 48);
+}
+section{
+    width: 40%;
+    margin: 50px auto;
+    border:1px solid white;
+    color: white;
+    display: grid;
+    grid-template-rows: 200px 80px 90px ;
+    grid-template-columns: 347px 190px;
+    grid-gap: 5px;
+}
+.tomato{
+    background-color: tomato;
+}
+.orange{
+    background-color:orange;
+}
+.green{
+    background-color:rgb(42, 151, 42);
+    grid-row: 2/4;
+}
+.blue{
+    background-color: rgb(68, 179, 223);
+}
+.blue2{
+    background-color: rgb(68, 179, 223);
+    /* grid-column: 2/3; */
+}
